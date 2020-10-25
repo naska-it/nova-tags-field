@@ -2,6 +2,34 @@
 
 All notable changes to `nova-tags-field` will be documented in this file
 
+## 3.0.4 - 2020-10-01
+
+- fix for "Call to a member function map() on null" (#94)
+
+## 3.0.3 - 2020-09-12
+
+- escape tags (#99)
+
+## 3.0.2 - 2020-09-09
+
+- allow spatie/laravel-tags v3
+
+## 3.0.1 - 2020-09-09
+
+- Support Laravel 8.0
+
+## 3.0.0 - 2020-03-03
+
+- Support Laravel 7.0 and Nova 3.0
+
+## 2.3.4 - 2020-01-31
+
+- fix small layout issue
+
+## 2.3.3 - 2020-01-31
+
+- encode unicode characters from inputs (#76)
+
 ## 2.3.2 - 2019-12-15
 
 - fix withLinkToTagResource function (#73)
